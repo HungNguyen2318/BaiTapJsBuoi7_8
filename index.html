@@ -113,7 +113,7 @@
           <div class="card card-body mt-3">
             <button id="btn_timSoDuongNhoNhat" class="btn btn-success">Tìm Số Dương Nhỏ Nhất</button>
             <div
-              id="ketQuaDemSoDuong"
+              id="ketQuaTimSoDuongNhoNhat"
               class="bg-success bg-opacity-75 mt-3"
             ></div>
           </div>
@@ -151,7 +151,9 @@
         </button>
         <div class="collapse" id="doiViTri">
           <div class="card card-body mt-3">
-            <button id="btn_doiViTri" class="btn btn-success">Đổi 2 vị trí</button>
+            <input type="number" class="form-control mt-3" name="" id="txt_viTri1" aria-describedby="helpId" placeholder="Vị trí thứ 1">
+            <input type="number" class="form-control mt-3" name="" id="txt_viTri2" aria-describedby="helpId" placeholder="Vị trí thứ 2">
+            <button id="btn_doiViTri" class="btn btn-success mt-3">Đổi 2 vị trí</button>
             <div
               id="ketQuaDoiViTri"
               class="bg-success bg-opacity-75 mt-3"
@@ -173,7 +175,7 @@
           <div class="card card-body mt-3">
             <button id="btn_sapXepTangDan" class="btn btn-success">Sắp xếp</button>
             <div
-              id="ketQuaDemSoDuong"
+              id="ketSapXepTangDan"
               class="bg-success bg-opacity-75 mt-3"
             ></div>
           </div>
@@ -191,9 +193,9 @@
         </button>
         <div class="collapse" id="timSoNguyenDauTien">
           <div class="card card-body mt-3">
-            <button id="btn_timSoNguyenDauTien" class="btn btn-success">Tìm Số Nguyên Đầu Tiên</button>
+            <button id="btn_timSoNguyenToDauTien" class="btn btn-success">Tìm Số Nguyên Đầu Tiên</button>
             <div
-              id="ketQuaTimSoNguyenDauTien"
+              id="ketQuaTimSoNguyenToDauTien"
               class="bg-success bg-opacity-75 mt-3"
             ></div>
           </div>
@@ -211,9 +213,25 @@
         </button>
         <div class="collapse" id="timSoNguyen">
           <div class="card card-body mt-3">
-            <button id="btn_tongSoDuong" class="btn btn-success">Đếm số</button>
+            <div class="row">
+              <div class="col-12 col-sm-8 mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  id="txt_soN_9"
+                  aria-describedby="helpId"
+                  placeholder="Thêm số N"
+                />
+              </div>
+              <div class="col-12 col-sm-4 d-flex justify-content-center mt-3">
+                <button id="btn_themSoN_9" class="btn btn-success">Thêm số n</button>
+              </div>
+              <div id="hienThiArray_9" class="p-2 col-sm-12"></div>
+            </div>
+            <button id="btn_demSoNguyen" class="btn btn-success mt-3">Đếm số</button>
             <div
-              id="ketQuaDemSoDuong"
+              id="ketQuaDemSoNguyen"
               class="bg-success bg-opacity-75 mt-3"
             ></div>
           </div>
@@ -231,9 +249,9 @@
         </button>
         <div class="collapse" id="soSanhSoDuongVaAm">
           <div class="card card-body mt-3">
-            <button id="btn_tongSoDuong" class="btn btn-success">Đếm số</button>
+            <button id="btn_soSanhAmDUong" class="btn btn-success">So Sánh</button>
             <div
-              id="ketQuaDemSoDuong"
+              id="ketQuaSoSanhAmDuong"
               class="bg-success bg-opacity-75 mt-3"
             ></div>
           </div>
